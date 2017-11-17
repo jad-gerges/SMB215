@@ -1,0 +1,53 @@
+1.	Menu Client a deux sections:
+
+a.	Account Management pour voir et modifier ses informations personnelles donc son profil qui contient l’email, nom, numéro de mobile / téléphone,  fax, ville, adresse, location (c’est une carte et le client choisie sont localisation en déplaçant le sélecteur sur son emplacement).
+
+b.	Operations pour faire des commandes et voir tous les informations de cet commande et le statut (en attente, en emballage, transférer et complet)
+
+
+
+2.	Menu Inventory Manager a six sections :
+
+a.	Account Management pour voir et modifier ses informations personnelles donc son profil qui contient l’email, nom, numéro de mobile / téléphone,  fax.
+
+b.	Warehouse Management créer des entrepôts en spécifiant le nom, l’adresse, description, ville et location (spécifier sur la carte), il peut voir la List des entrepôts existants en plus il peut modifier les informations ou le supprimer.
+
+c.	Products Management pour voir la table de tous les produits (service, échantillon, promotion etc.) et filtrer la table à travers le nom du produit ou son code. En plus pour créer un produit en spécifiant la marque, code, catégorie, nom, quantité, code a barre, date de fabrication, date d’expiration, cout, prix de vente, mesure, description et la location qui est un tableau de multi-sélection qui contient (couloir, étagère, taille, nom de l’entrepôt et la quantité) donc la quantité total doit égale a la somme des quantité des différant location du produit. Encore pour modifier (tous les informations sauf les locations des produits) et supprimer des produits.
+
+d.	Promotions  pour créer des promotions. Il ‘y a deux genres, le premier ç'est un ou plusieurs produits avec une remise (multi-sélection de plusieurs produits en accorde avec la marque) et le deuxième ç'est un ou plusieurs produits avec un ou plusieurs produits gratuits (multi-sélection de plusieurs produit principal et de plusieurs produit gratuits en accord avec la marque). Pour voir une promotion on doit accéder le tableau du produit qui est cité dans la section Products Management donc c’est le produit avec le type « promotions ». Par suite on a plus des variables qu’un produit principal c’est-à-dire on peut choisir plusieurs produits principaux avec des multiples des produits gratuits ou avec une remise. Encore on peut supprimer ou modifier une promotion comme un produit principal, si une promotion est supprimée ou modifier donc la quantité de produit principal doit augmenter ou diminuer.
+
+e.	Free Products faire un produit gratuit en préciser le cas (un échantillon, endommagé ou utiliser par l’entreprise) la quantité et son raison. Pour voir une promotion on doit accéder dans le tableau du produit qui est cité dans la section Products Management donc c’est le produit avec le type échantillon, endommagé ou utiliser par l’entreprise donc dans ce cas la description du produit sera un raison de gratuité du produit. En plus on peut supprimer ou modifier une promotion comme un produit principal, si un échantillon est supprimé ou modifier donc la quantité de produit principal doit augmenter ou diminuer.
+
+f.	Operations pour faire des opérations internes (entre deux entrepôts) en spécifiant la source, destination, date et multi-sélection de plusieurs produits. En plus on peut voir toutes les informations de cette opération source, destination le type (externe ou interne), le statut (en attente, en emballage, transférer et complet).
+
+
+
+3.	Menu Warehouse Manager a 5 sections :
+
+a.	Account Management pour voir et modifier ses informations personnelles donc son profil qui contient l’email, nom, numéro de mobile / téléphone,  fax.
+
+b.	Warehouse Management pour voir seulement la List des entrepôts il ne peut ni crée ni modifier ou supprimer un entrepôt.
+
+c.	Products Management pour voir la table de tous les produits (service, échantillon, promotion etc.) et filtrer la table à travers le nom du produit ou son code. En plus il peut modifier seulement les locations des produits, leur quantité par rapport à chaque location et la quantité totale du produit.
+
+d.	Operations (Même fonctions du Inventory Manager)
+
+e.	Barcode Scanner est utilisé en deux cas. En premier lieu on scanne un produit pour qu’on savoir touts les détailles sur lui, son emplacement par exemple. En deuxième lieu on le scanne pour modifier la quantité ou pour ajouter un autre emplacement.
+
+
+
+
+4.	Menu Driver Manager a 2 sections :
+
+a.	Account Management pour voir et modifier ses informations personnelles donc son profil qui contient l’email, nom, numéro de mobile / téléphone,  fax.
+
+b.	Operations voir la List des opérations, attribuer un Driver à une opération choisi (le statut doit être en attente) en précisant l’heure de départ et l’heure de fin.
+
+
+
+
+5.	Menu Driver a 2 sections :
+
+a.	Account Management pour voir et modifier ses informations personnelles donc son profil qui contient l’email, nom, numéro de mobile / téléphone,  fax.
+
+b.	Operations voir la List des opérations que le Driver Manager à attribuer pour lui, contient en plus deux variable heurs de départ et heure de fin que le Driver Manager a précisés pour lui, en plus quand le statut sera le mode transférer, il peut donc presser sur le bouton « Get Direction » pour voir la direction sur la carte.
